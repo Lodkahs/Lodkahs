@@ -4,7 +4,7 @@
 
 I promise that Ill fullfill this file every day with something new what I learnied todays day to become better
 
-21th May /n
+21th May <br>
 I'm sarting a brand new journey to me and diving deep for learn into the Automated Testing course. First task was pretty ease because I have this account a long time and have a couple of projects on CSS and JS from my previous web-developer 'life' :D
 
 <!---
