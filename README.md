@@ -8,7 +8,7 @@ I've try to fullfill this file every day with something new what I learnied toda
 I'm sarting a brand new journey to me and diving deep for learn into the Automated Testing course. First task was pretty ease because I have this account a long time and have a couple of projects on CSS and JS from my previous web-developer 'life' :D
 
 23-24th may <br>
-We got double b-day party so I can't learn a lot c:
+We got double b-day party so I couldn't learn a lot c:
 
 <!---
 Lodkahs/Lodkahs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
