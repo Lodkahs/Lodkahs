@@ -10,7 +10,5 @@ I'm sarting a brand new journey to me and diving deep for learn into the Automat
 23-24th may <br>
 We got double b-day party so I couldn't learn a lot c:
 
-<!---
-Lodkahs/Lodkahs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+25th May <br>
+Repeating materials about QA theory (~3h)
