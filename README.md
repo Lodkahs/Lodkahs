@@ -12,3 +12,6 @@ We got double b-day party so I couldn't learn a lot c:
 
 25th May <br>
 Repeating materials about QA theory (~3h)
+
+4th June <br>
+Learning a lot about Docker, trying to complete task number 2.
