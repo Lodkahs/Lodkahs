@@ -25,7 +25,7 @@ Next step to extracts access_token from the response body into variable. <br>
 
 Sending a GET request to /image endpoint with the authorization header of Bearer type and the access_token value and saving the response output into .png file <br>
 
-curl --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJMb2RrYWhzIiwiZXhwIjoxNjIyNzk1NjE2fQ.zixsidbPkMop8QdSB2Tb-m0njDELysk7joo0f3jUzQc" localhost:8000/image > img.png ![img](https://user-images.githubusercontent.com/27642605/120771820-52982b00-c528-11eb-9eb2-23d9106141dd.png)
+curl --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJMb2RrYWhzIiwiZXhwIjoxNjIyNzk1NjE2fQ.zixsidbPkMop8QdSB2Tb-m0njDELysk7joo0f3jUzQc" localhost:8000/image > img.png <br><br><br>![img](https://user-images.githubusercontent.com/27642605/120771820-52982b00-c528-11eb-9eb2-23d9106141dd.png)
 
 
 
