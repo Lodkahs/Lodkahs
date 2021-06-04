@@ -19,13 +19,33 @@ Some usefull tips and commands I'm using to complete task <br> First time workin
 
 curl -d "username=Lodkahs&password=secret" localhost:8000/auth - using this command we got and access_token which we need to extract into variable <br>
 
-{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJMb2RrYWhzIiwiZXhwIjoxNjIyNzY4OTE2fQ.hTx5ulIRTUTnVM5D3LOPMOn7dUJkp9FXx7btI-e-0uE","token_type":"bearer"}%                                                                                                                                                                 usususususususus <br> looks like we got something from the previous command <br>
+{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJMb2RrYWhzIiwiZXhwIjoxNjIyNzY4OTE2fQ.hTx5ulIRTUTnVM5D3LOPMOn7dUJkp9FXx7btI-e-0uE","token_type":"bearer"}% <br><br> looks like we got something from the previous command <br><br>
 
-Next step to extracts access_token from the response body into variable. <br>
+Next step to extracts access_token from the response body into variable. <br><br>
+token=$(echo $response | jq -r '.access_token') -r flag to delete quotes from token variable<br><br>
 
-Sending a GET request to /image endpoint with the authorization header of Bearer type and the access_token value and saving the response output into .png file <br>
+Sending a GET request to /image endpoint with the authorization header of Bearer type and the access_token value and saving the response output into .png file into Documents directory <br><br>
+curl --header "Authorization: Bearer $token" localhost:8000/image > Documents/$$ <br><br>
 
-curl --header "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJMb2RrYWhzIiwiZXhwIjoxNjIyNzk1NjE2fQ.zixsidbPkMop8QdSB2Tb-m0njDELysk7joo0f3jUzQc" localhost:8000/image > img.png <br><br><br>![img](https://user-images.githubusercontent.com/27642605/120771820-52982b00-c528-11eb-9eb2-23d9106141dd.png)
+Change Lodkahs, secret and img.png with $1, $2 and $3 arguments into script body and running script <br>
+response=$(curl -d "username=$1&password=$2" localhost:8000/auth)
+<br><br>
+./script.bash Lodkahs secret img.png
+
+
+Final script.bash with script             
+
+  GNU nano 2.0.6             File: script.bash                                  
+
+#!/bin/bash
+response=$(curl -d "username=$1&password=$2" localhost:8000/auth)
+token=$(echo $response | jq -r '.access_token')
+echo $token
+curl --header "Authorization: Bearer $token" localhost:8000/image > Documents/$$
+
+![img](https://user-images.githubusercontent.com/27642605/120771820-52982b00-c528-11eb-9eb2-23d9106141dd.png)
+
+
 
 
 
