@@ -14,4 +14,11 @@ We got double b-day party so I couldn't learn a lot c:
 Repeating materials about QA theory (~3h)
 
 4th June <br>
-Learning a lot about Docker, trying to complete task number 2.
+Learning a lot about Docker, trying to complete task number 2. <br> 
+Some usefull tips and commands I'm using to complete task <br> First time working with Docker at all <br>
+
+curl -d "username=Lodkahs&password=secret" localhost:8000/auth - using this command we got and access_token which we need to extract into variable <br>
+
+
+
+
