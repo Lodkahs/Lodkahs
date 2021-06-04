@@ -25,7 +25,7 @@ Next step to extracts access_token from the response body into variable. <br><br
 token=$(echo $response | jq -r '.access_token') -r flag to delete quotes from token variable<br><br>
 
 Sending a GET request to /image endpoint with the authorization header of Bearer type and the access_token value and saving the response output into .png file into Documents directory <br><br>
-curl --header "Authorization: Bearer $token" localhost:8000/image > Documents/$$ <br><br>
+curl --header "Authorization: Bearer $token" localhost:8000/image > Documents/$img.png <br><br>
 
 Change Lodkahs, secret and img.png with $1, $2 and $3 arguments into script body and running script <br>
 response=$(curl -d "username=$1&password=$2" localhost:8000/auth)
