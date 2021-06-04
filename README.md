@@ -17,7 +17,7 @@ Repeating materials about QA theory (~3h)
 Learning a lot about Docker, trying to complete task number 2. <br> 
 Some usefull tips and commands I'm using to complete task <br> First time working with Docker at all <br>
 
-curl -d "username=Lodkahs&password=secret" localhost:8000/auth - using this command we got and access_token which we need to extract into variable <br>
+curl -d "username=Lodkahs&password=secret" localhost:8000/auth - using this command we got access_token which we need to extract into variable <br>
 
 {"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJMb2RrYWhzIiwiZXhwIjoxNjIyNzY4OTE2fQ.hTx5ulIRTUTnVM5D3LOPMOn7dUJkp9FXx7btI-e-0uE","token_type":"bearer"}% <br><br> looks like we got something from the previous command <br><br>
 
