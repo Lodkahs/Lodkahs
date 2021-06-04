@@ -43,7 +43,9 @@ token=$(echo $response | jq -r '.access_token')
 echo $token
 curl --header "Authorization: Bearer $token" localhost:8000/image > Documents/$$
 
-![img](https://user-images.githubusercontent.com/27642605/120771820-52982b00-c528-11eb-9eb2-23d9106141dd.png)
+![img](https://user-images.githubusercontent.com/27642605/120771820-52982b00-c528-11eb-9eb2-23d9106141dd.png) <br><br><br>
+
+After all my Chrome's window looks like real programmer's work space with ~30 new tabs opened to learn this a brand new material about Docker and cURL FeelsGoodMan
 
 
 
