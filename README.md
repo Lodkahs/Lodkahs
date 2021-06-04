@@ -33,15 +33,7 @@ response=$(curl -d "username=$1&password=$2" localhost:8000/auth)
 ./script.bash Lodkahs secret img.png
 
 
-Final script.bash with script             
-
-  GNU nano 2.0.6             File: script.bash                                  
-
-#!/bin/bash
-response=$(curl -d "username=$1&password=$2" localhost:8000/auth)
-token=$(echo $response | jq -r '.access_token')
-echo $token
-curl --header "Authorization: Bearer $token" localhost:8000/image > Documents/$3
+Attached file with script named script.bash into repository           
 
 ![img](https://user-images.githubusercontent.com/27642605/120771820-52982b00-c528-11eb-9eb2-23d9106141dd.png) <br><br><br>
 
