@@ -39,7 +39,9 @@ Attached file with script named script.bash into repository
 
 After all my Chrome's window looks like real programmer's work space with ~30 new tabs opened to learn this a brand new material about Docker and cURL FeelsGoodMan
 
-
+<br><br>
+10th June <br>
+Ian Miell Docker in Practice
 
 
 
